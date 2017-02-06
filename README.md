@@ -1,4 +1,4 @@
-# no\_proxy\_fix
+# no_proxy_fix
 
 [![Gem Version](https://badge.fury.io/rb/no_proxy_fix.svg)](http://badge.fury.io/rb/no_proxy_fix)
 [![Build Status](https://travis-ci.org/ermaker/no_proxy_fix.svg?branch=master)](https://travis-ci.org/ermaker/no_proxy_fix)
@@ -37,7 +37,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/ermaker/no\_proxy\_fix.
+Bug reports and pull requests are welcome on GitHub at https://github.com/ermaker/no_proxy_fix.
 
 
 ## License
