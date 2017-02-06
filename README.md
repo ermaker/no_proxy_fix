@@ -3,7 +3,6 @@
 [![Gem Version](https://badge.fury.io/rb/no_proxy_fix.svg)](http://badge.fury.io/rb/no_proxy_fix)
 [![Build Status](https://travis-ci.org/ermaker/no_proxy_fix.svg?branch=master)](https://travis-ci.org/ermaker/no_proxy_fix)
 [![Dependency Status](https://gemnasium.com/ermaker/no_proxy_fix.svg)](https://gemnasium.com/ermaker/no_proxy_fix)
-[![codecov.io](http://codecov.io/github/ermaker/no_proxy_fix/coverage.svg?branch=master)](http://codecov.io/github/ermaker/no_proxy_fix?branch=master)
 
 
 This fixes https://github.com/ruby/ruby/commit/556e3da4216c926e71dea9ce4ea4a08dcfdc1275 for ruby 2.4.0.
