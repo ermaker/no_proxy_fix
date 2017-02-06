@@ -4,33 +4,30 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'no_proxy_fix/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "no_proxy_fix"
+  spec.name          = 'no_proxy_fix'
   spec.version       = NoProxyFix::VERSION
-  spec.authors       = ["Minwoo Lee"]
-  spec.email         = ["ermaker@gmail.com"]
+  spec.authors       = ['Minwoo Lee']
+  spec.email         = ['ermaker@gmail.com']
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
-  spec.license       = "MIT"
-
-  # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
-  # to allow pushing to a single host or delete this section to allow pushing to any host.
-  if spec.respond_to?(:metadata)
-    spec.metadata['allowed_push_host'] = "TODO: Set to 'http://mygemserver.com'"
-  else
-    raise "RubyGems 2.0 or newer is required to protect against " \
-      "public gem pushes."
-  end
+  spec.summary       = 'A fix for a no_proxy bug on ruby 2.4.0'
+  spec.description   = 'A fix for a no_proxy bug: https://github.com/ruby/ruby/commit/556e3da4216c926e71dea9ce4ea4a08dcfdc1275'
+  spec.homepage      = 'https://github.com/ermaker/no_proxy_fix'
+  spec.license       = 'MIT'
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
     f.match(%r{^(test|spec|features)/})
   end
-  spec.bindir        = "exe"
+  spec.bindir        = 'exe'
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
-  spec.require_paths = ["lib"]
+  spec.require_paths = ['lib']
 
-  spec.add_development_dependency "bundler", "~> 1.13"
-  spec.add_development_dependency "rake", "~> 10.0"
-  spec.add_development_dependency "rspec", "~> 3.0"
+  spec.add_development_dependency 'bundler'
+  spec.add_development_dependency 'rake'
+  spec.add_development_dependency 'rspec'
+  spec.add_development_dependency 'rspec-its'
+  spec.add_development_dependency 'rubocop'
+  spec.add_development_dependency 'guard'
+  spec.add_development_dependency 'guard-bundler'
+  spec.add_development_dependency 'guard-rspec'
+  spec.add_development_dependency 'guard-rubocop'
 end
