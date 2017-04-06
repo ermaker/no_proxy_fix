@@ -10,6 +10,8 @@ RSpec.describe URI do
   end
 
   it 'works' do
+    ENV['http_proxy'] = 'http://127.0.0.1'
+    ENV['no_proxy'] = '192.0.2.2'
     URI('http://example.org/').find_proxy
   end
 end
