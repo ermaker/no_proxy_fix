@@ -5,7 +5,7 @@
 [![Dependency Status](https://gemnasium.com/ermaker/no_proxy_fix.svg)](https://gemnasium.com/ermaker/no_proxy_fix)
 
 
-This fixes https://github.com/ruby/ruby/commit/556e3da4216c926e71dea9ce4ea4a08dcfdc1275 for ruby 2.4.0.
+This fixes https://github.com/ruby/ruby/commit/556e3da4216c926e71dea9ce4ea4a08dcfdc1275 for ruby 2.4.0 and ruby 2.4.1.
 
 ## Installation
 
