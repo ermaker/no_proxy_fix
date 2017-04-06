@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ['Minwoo Lee']
   spec.email         = ['ermaker@gmail.com']
 
-  spec.summary       = 'A fix for a no_proxy bug on ruby 2.4.0'
+  spec.summary       = 'A fix for a no_proxy bug on ruby 2.4.0 and 2.4.1'
   spec.description   = 'A fix for a no_proxy bug: https://github.com/ruby/ruby/commit/556e3da4216c926e71dea9ce4ea4a08dcfdc1275'
   spec.homepage      = 'https://github.com/ermaker/no_proxy_fix'
   spec.license       = 'MIT'
