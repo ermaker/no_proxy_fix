@@ -20,6 +20,8 @@ module URI
   # Implements generic URI syntax as per RFC 2396.
   #
   class Generic
+    undef find_proxy
+
     # returns a proxy URI.
     # The proxy URI is obtained from environment variables such as http_proxy,
     # ftp_proxy, no_proxy, etc.
